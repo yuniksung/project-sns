@@ -9,7 +9,7 @@ import { createPost } from '../../actions/posts'
    
 
 const Form = () => {
-    const [postData, setPostData] = useState({creator: '', title: '', message:'', tags: '', selectedFile: ''});
+    const [postData, setPostData] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
     const classes = useStyles();
     const dispatch = useDispatch();
 
