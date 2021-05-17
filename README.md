@@ -1,6 +1,5 @@
 # Memories 
 This app is a fully responsive social media app that allows users to create, update, and delete posts.
-This app is deployed in Netlify for front-ends and Heroku for back-ends.
 
 
 ![demo](https://github.com/yuniksung/project-sns/blob/main/client/public/project-sns1.jpg?raw=true)
