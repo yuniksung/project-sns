@@ -31,13 +31,13 @@ const Auth = () => {
                     <Grid container spacing={2}>
                         {isSignup && (
                             <>
-                                <Input name="firstName" label="First Name" handleChange={handleChange} autoFocuse half />
-                                <Input name="firstName" label="First Name" handleChange={handleChange} half />
+                                <Input name="firstName" label="First Name" handleChange={handleChange} autoFocus half />
+                                <Input name="lastName" label="Last Name" handleChange={handleChange} half />
                             </>
                         )}
                         <Input name="email" label="Email Address" handleChange={handleChange} type="email" />
-                        <Input name="password" label="Password" handleChange={handleChange} type={showPassword ? "text" : "passwrod"} handleShowPassword={handleShowPassword} />
-                        { isSignup && <Input name="confirmPassword" label="Reapeat Password" handleChange={handleChange} type="password" />}
+                        <Input name="password" label="Password" handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} />
+                        { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" /> }
                     </Grid>
                     <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
                         { isSignup ? 'Sign Up' : 'Sign In'}
